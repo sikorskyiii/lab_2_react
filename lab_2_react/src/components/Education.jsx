@@ -1,9 +1,11 @@
-export default function Education(){
-    return(
-        <section>
-              <h2>Education</h2>
-                <p>Lviv National Polytechnic University,
-                BA of Computer Science, Cybersecurity</p>
-        </section>
-    )
+export default function Education() {
+  return (
+    <section className="md:col-start-1 md:col-end-2 md:row-start-5 p-8 border-b md:border-r border-dashed border-gray-300 bg-white hover:bg-gray-50 transition-colors">
+      <h2 className="text-xl font-bold mb-4 text-gray-900 flex items-center gap-3">
+        <span className="w-1.5 h-5 bg-yellow-500 rounded-full inline-block"></span> Education
+      </h2>
+      <p className="text-gray-800 font-semibold">Lviv Polytechnic National University</p>
+      <p className="text-gray-500 text-sm mt-1">BA of Computer Science, Cybersecurity</p>
+    </section>
+  );
 }
