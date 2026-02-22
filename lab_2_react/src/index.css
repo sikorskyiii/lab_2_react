@@ -1,4 +1,3 @@
 @import "tailwindcss";
 
-/* Темна тема по класу .dark на html (перемикач), а не по prefers-color-scheme */
 @custom-variant dark (&:where(.dark, .dark *));
